@@ -1,0 +1,23 @@
+@import './Null';
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+@import '../src/BodyComp/BodyComp';
+@import '../src/BodyComp/BodyMenu/BodyMenu';
+@import './Header/Header';
+@import './Header/HeadMenuComp/HeadMenuComp';
+@import './Title/Title';
+@import '../src/BodyComp/BodyCont/BodyCards/BodyCard/BodyCard';
+
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  
+  flex-direction: column;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}

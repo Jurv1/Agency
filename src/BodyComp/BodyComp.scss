@@ -1,0 +1,100 @@
+
+
+.parent{
+    display: inline-grid;
+    grid-gap: 30px;
+    place-content: center;
+    grid-template-columns: 370px 370px 370px ;
+    grid-template-rows: 416px 416px 416px ;
+    margin-bottom: 80px;
+}
+.content {
+    padding: 85px 0 0 0;
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fdf0e9;
+}
+
+.body__card{
+    max-width: 370px;
+    min-height: 416px;
+    position: relative;
+    
+    & > a >.card__name{
+        position: absolute;
+        z-index: 50;
+        bottom: 60px;
+        left: 43px;
+        font-size: 40px;
+        font-weight: 800;
+        color: #fff;
+    }
+    & > a >.card__category{
+        position: absolute;
+        bottom: 120px;
+        left: 40px;
+        display: inline-block;
+        color: #43200e;
+        background-color: #fff;
+        border-radius: 28px;
+        padding: 14px 17px 12px 17px;
+    }
+    
+}
+
+
+
+.body__card_1{
+    background-image: url('../assets/card_images/SOFA.png');
+}
+.body__card_2{
+    background-image: url('../assets/card_images/Keyboard.png');
+}
+.body__card_3{
+    background-image: url('../assets/card_images/Work Media.png');
+}
+.body__card_4{
+    background-image: url('../assets/card_images/DDDone.png');
+}
+.body__card_5{
+    background-image: url('../assets/card_images/Abstract.png');
+}
+.body__card_6{
+    background-image: url('../assets/card_images/HandP.png');
+}
+.body__card_7{
+    background-image: url('../assets/card_images/Architect.png');
+}
+.body__card_8{
+    background-image: url('../assets/card_images/Calc.png');
+}
+.body__card_9{
+    background-image: url('../assets/card_images/Sport.png');
+}
+
+
+@media screen and (max-width: 1170px) {
+    .parent{
+        display: inline-grid;
+        grid-gap: 30px;
+        place-content: center;
+        grid-template-columns: 370px 370px  ;
+        grid-template-rows: 416px 416px  ;
+        margin-bottom: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 790px) {
+    .parent{
+        display: inline-grid;
+        grid-gap: 30px;
+        place-content: center;
+        grid-template-columns: 370px  ;
+        grid-template-rows: 416px   ;
+        margin-bottom: 80px;
+    }
+    
+}

@@ -1,0 +1,19 @@
+.header {
+    //position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px;
+    background-color: #28293e;
+    color: #fff;
+    border-bottom: 2px solid #597f43;
+}
+
+
+.header__text{
+    text-align: center;
+    line-height: 25px;
+    padding: 55px 0 77px 0;
+    font-size: 16px;
+    color: #a9a9b2;
+}
